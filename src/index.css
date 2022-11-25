@@ -1,0 +1,49 @@
+
+#container{
+  
+  font-size: 1.5rem;;
+  text-align: center;
+  border: 1px solid black;
+  /* width: 500px; */
+  height:500px;
+  border-radius: 20px;
+  background-color: coral;
+  width: 60%;
+  margin-left: 20%;
+/* padding-top: 2rem; */
+}
+.heading{
+  border-radius: 20px;
+  text-align: center;
+  background-color: blue;
+  padding-top: 70px;
+  color: aliceblue;
+}
+#password,#phone,#email,#username{
+  height :2rem;
+  border-radius: 20px;
+  background-color:cadetblue;
+  color: ivory;
+  font-size: 1rem;
+}
+#password:hover,#phone:hover,#email:hover,#username:hover{
+  background-color: aliceblue;
+
+}
+
+.enrolment{
+  background-color: aqua;
+  border: 2px solid black;
+  border-radius: 10px;
+  text-align: center;
+  width: 60%;
+  margin-left: 20%;
+  /* padding-left: 300px; */
+}
+
+button{
+  background-color:cornflowerblue;
+}
+button:hover{
+  color: aliceblue;
+}
