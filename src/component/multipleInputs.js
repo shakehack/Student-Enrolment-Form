@@ -35,7 +35,7 @@ const MultipleInputs = () => {
 
              <div id="container">
                 <div>
-                    <div className="heading"><h1><span>Student Enrolment</span></h1></div>
+                    <div className=""><h1><span>Student Enrolment Form</span></h1></div>
                     <label htmlFor="Full-Name">Full Name</label><br></br>
                     <input type="text"
                         value={userRegistration.username}
