@@ -28,6 +28,7 @@
 }
 #password:hover,#phone:hover,#email:hover,#username:hover{
   background-color: aliceblue;
+  color: black;
 
 }
 
