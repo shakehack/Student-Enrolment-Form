@@ -37,21 +37,21 @@ const MultipleInputs = () => {
                 <div>
                     <div className=""><h1><span>Student Enrolment Form</span></h1></div>
                     <label htmlFor="Full-Name">Full Name</label><br></br>
-                    <input type="text"
+                    <input type="text" autoComplete="off"
                         value={userRegistration.username}
                         onChange={handleInput}
                         name="username" id="username"></input>
                 </div>
                 <div>
                     <label htmlFor="email">email</label><br></br>
-                    <input type="email"
+                    <input type="email" autoComplete="off"
                         value={userRegistration.email}
                         onChange={handleInput}
                         name="email" id="email"></input>
                 </div>
                 <div>
                     <label htmlFor="phone">phone</label><br></br>
-                    <input type="text"
+                    <input type="text" autoComplete="off"
                         value={userRegistration.phone}
                         onChange={handleInput}
                         name="phone" id="phone"></input>
@@ -61,7 +61,7 @@ const MultipleInputs = () => {
 
                 <div>
                     <label htmlFor="password">password</label><br></br>
-                    <input type="password"
+                    <input type="password" autoComplete="off"
                         value={userRegistration.password}
                         onChange={handleInput}
                         name="password" id="password"></input>
